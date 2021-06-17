@@ -113,8 +113,6 @@ class IS31FL3733:
 
         self.reset()
         self.configure_auto_breath_mode()
-        self.sync_mode = CONFIGURATION_SYNC_CLOCK_HIGH_IMPEDANCE
-        self.breathing_enable_mode = CONFIGURATION_PWM_ENABLE
         self.software_shutdown_mode = CONFIGURATION_NORMAL_OPERATION
         self.pullup_resistor = RESISTOR_32K
         self.pulldown_resistor = RESISTOR_32K
